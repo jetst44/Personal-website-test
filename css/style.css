@@ -1,0 +1,294 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../assets/img/stars.png) no-repeat center fixed;
+	background-size: cover;
+	margin: 0
+}
+
+.nav {
+	width: 100%;
+	display: block;
+	background: rgba(3, 3, 59, .85);
+	padding: 35px;
+}
+
+/*.nav a {
+	background-color: antiquewhite;
+}*/
+
+.nav_list {
+	list-style-type: none;
+
+}
+
+.nav_list li {
+	padding: 20px;
+	display: inline;
+}
+
+ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* also for form */
+
+form {
+	display: block;
+	box-sizing: border-box;
+	margin: 70px;
+	float: left;
+	height: 300px;
+	padding: 30px;
+
+}
+
+/* also for form */
+
+form {
+	font-family: Georgia, serif;
+	text-align: center;
+	font-style: italic;
+	color: rgb(255, 255, 255);
+	float: left;
+	font-size: 25px;
+	background-color: rgba(0, 0, 0, .0);
+
+}
+
+/* .btn & .btn:hover for nav buttons */
+
+.btn {
+	box-sizing: border-box;
+	border: none;
+	color: rgba(255, 255, 255, .6);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: rgba(25, 40, 78, 1);
+	border-radius: 100px;
+	color: rgba(250, 250, 250, 1);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+
+.water {
+	box-sizing: border-box;
+	background-color: rgba(100, 100, 100, .0);
+	width: 500px;
+	margin-left: 50px;
+	text-align: center;
+	float: left;
+
+}
+
+/* .bike :focus for for fourm */
+
+form :focus {
+	background-color: rgba(0, 0, 0, .0);
+	border-radius: 10px;
+}
+
+/* .fear for for fourm text */
+
+.fear {
+	background-color: rgba(55, 59, 69, .5);
+	text-align: left;
+	border: solid;
+	border-color: rgba(55, 59, 69, .5);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	width: 300px;
+
+}
+
+
+/* #xeno for for main box */
+
+#xeno {
+	border: 1px solid black;
+	border-style: hidden;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: rgba(0, 0, 0, 1);
+	background: linear-gradient(rgba(0, 0, 0, .6),
+	rgba(0, 0, 0, 1), rgba(0, 0, 0, .6));
+	overflow: hidden;
+
+}
+
+/* #fire for form main box */
+
+#fire {
+	border: 1px solid black;
+	border-style: hidden;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .0);
+	overflow: hidden;
+}
+
+/* .bane for pics */
+
+.bane {
+	width: 400px;
+	text-align: justify;
+}
+
+.earth {
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	background-color: gba(255, 255, 255, 0);
+	color: rgba(255, 255, 255, .6);
+	text-decoration: none;
+	border-radius: 100px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.earth:hover {
+	background-color: rgba(55, 59, 69, .8);
+	color: rgba(255, 255, 255, 1);
+}
+
+/* #air for paragraphs */
+#air {
+	border: 1px none black;
+	padding: 10px;
+	width: 500px;
+	height: 180px;
+	text-align: justify;
+	margin:0 auto;
+}
+
+#metal {
+	padding: 10px;
+	width: 500px;
+	height: 75px;
+	text-align: justify;
+	margin:0 auto;
+}
+
+/* .dab for heading */
+.dab{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 30px
+}
+
+/* .boon for social media */
+.boon {
+	width: 100%;
+	border-radius: 100px;
+}
+
+/* .for main page intro */
+
+.tales {
+	box-sizing: border-box;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: rgba(255, 255, 0, .0);
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	padding: 30px;
+	float: left;
+}
+
+
+/* .chrono for boxes inside boxes */
+
+.chrono {
+	box-sizing: border-box;
+	margin-left: 20px;
+	margin-right: 13px;
+	margin-bottom: 20px;
+	background-color: rgba(255, 255, 0, .0);
+	text-align: center;
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+}
+
+
+
+#saga {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#time {
+	width: 700px;
+	margin: 0 auto;
+}
+
+/* #space for form 2nd box boxes */
+
+#space {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/* .gears for paragraphs*/
+
+.gears {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-radius: 100px;
+	background-color: rgba(255, 255, 0, .0);
+}
+
+
+
+h1,
+h2,
+h3 {
+	font-family: Georgia, serif;
+	text-align: center;
+	font-style: italic;
+	color: rgb(255, 255, 255);
+	margin: 100;
+}
+
+p {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 25px;
+}
